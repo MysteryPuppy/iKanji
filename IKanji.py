@@ -42,6 +42,7 @@ def quiz(x):
     if optionsChoice=="2":
         print("Quiz ended. Correct Answers "+ str(correctCounter) +"/30")
     else:
+        
         print("Quiz ended. Correct Answers "+ str(correctCounter) +"/10")
 
 #Code Start
