@@ -9,6 +9,6 @@ The kanji CSV files were found on [this site](http://www.passjapanesetest.com/?s
 * `python iKanji.py` to run quizzes. Made in Python 2.7 so might need some adjustments if only running Python 3.
 
 **Screenshots:**
-![Image of iKanji quiz in action]()
+![Image of iKanji quiz in action](https://github.com/MysteryPuppy/iKanji/blob/master/screenshot.png)
 
 **Note:** This program is for personal benefit so it does not have a lot of input sanitizing. That's out of personal preference and can easily be changed in the .py file.
