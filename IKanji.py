@@ -15,6 +15,7 @@ def quiz(x):
     print("Quiz Started - "+levelChoice)
     optionsChoice=raw_input("Would you like to do 1. Meanings or 2. Meanings + Onyomi + Kunyomi? \n>")
     while counter<10:
+        #Meaning
         print("Question "+str(counter)+".")
         meaningAnsw=raw_input("What is the meaning of: "+df["Kanji"][Questions[counter]]+"? \n>")
         if meaningAnsw in df["English"][Questions[counter]]:
@@ -42,7 +43,6 @@ def quiz(x):
     if optionsChoice=="2":
         print("Quiz ended. Correct Answers "+ str(correctCounter) +"/30")
     else:
-        
         print("Quiz ended. Correct Answers "+ str(correctCounter) +"/10")
 
 #Code Start
@@ -55,5 +55,7 @@ while starter==True:
     elif levelChoice=="QUIT":
         starter==False
         break
+    elif levelChoice=="N2" or levelChoice=="N1":
+        print("CSV files for these kanji have not been found as of yet.")
     else:
         quiz(levelChoice)
